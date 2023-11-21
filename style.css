@@ -47,8 +47,9 @@ main.table {
 .heading{
 
     text-align: center;
-    padding-left: 500px;
+    
 }
+
 
 .table__header .input-group {
     width: 35%;

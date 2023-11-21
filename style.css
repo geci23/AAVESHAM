@@ -8,15 +8,24 @@
     font-family: sans-serif;
 }
 
-
+.heading{
+    text-align: center;
+    font-size: larger;
+    padding-left: 150px;
+    font-weight: 700;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
 
 
 body {
     min-height: 100vh;
-    background: url(20231121_083305.png) center / cover;
+    background: url(IMG-20231121-WA0010.jpg) center / cover;
     display: flex;
     justify-content: center;
-    align-items: center;
+   
+    align-items: center; 
+    
 }
 
 main.table {
@@ -41,12 +50,13 @@ main.table {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-left: 30px;
+    padding-left: 300px;
+    font-size: medium;
 }
 
 .heading{
 
-    text-align: center;
+    text-align: right;
     
 }
 
@@ -176,29 +186,7 @@ tbody tr.hide td img {
     transition: .2s ease-in-out .5s;
 }
 
-.status {
-    padding: .4rem 0;
-    border-radius: 2rem;
-    text-align: center;
-}
 
-.status.delivered {
-    background-color: #86e49d;
-    color: #006b21;
-}
-
-.status.cancelled {
-    background-color: #d893a3;
-    color: #b30021;
-}
-
-.status.pending {
-    background-color: #ebc474;
-}
-
-.status.shipped {
-    background-color: #6fcaea;
-}
 
 
 @media (max-width: 1000px) {
@@ -343,6 +331,9 @@ thead th.active,tbody td.active {
   touch-action: manipulation;
   white-space: nowrap;
   cursor: pointer;
+  text-align: center;
+  
+  
 }
 
 .button-64:active,
